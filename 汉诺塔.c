@@ -3,12 +3,12 @@ void hanoi(int,int,int,int);
 main()
 {
 	int n;
-	printf("请输入圆盘个数\n");
+	printf("璇疯緭鍏ュ渾鐩樹釜鏁癨n");
 	scanf("%d",&n);
-	printf("从A塔座移动%d个圆盘到C塔座借助B塔座的步骤如下：\n",n);
+	printf("浠嶢濉斿骇绉诲姩%d涓渾鐩樺埌C濉斿骇鍊熷姪B濉斿骇鐨勬楠ゅ涓嬶細\n",n);
 	hanoi(n,'A','B','C');			
 }
-void hanoi(int n,int x,int y,int z)//将n个圆盘借助y塔座从x塔座移动到z塔座 
+void hanoi(int n,int x,int y,int z)//灏唍涓渾鐩樺�熷姪y濉斿骇浠巟濉斿骇绉诲姩鍒皕濉斿骇 
 {
 	int a=0;
 	if(n==1)
